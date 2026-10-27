@@ -1,0 +1,13 @@
+# Секреты
+.env
+
+# База памяти: в ней личные сообщения пользователей
+memory.db
+memory.db-journal
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
