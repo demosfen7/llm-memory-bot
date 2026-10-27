@@ -8,7 +8,7 @@ from openai import AsyncOpenAI
 
 logger = logging.getLogger(__name__)
 
-# Ограничение длины резюме пользователя из условия задания
+# Максимальная длина резюме пользователя в символах
 SUMMARY_MAX_CHARS = 500
 
 _SUMMARY_PROMPT = (
